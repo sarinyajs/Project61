@@ -1,0 +1,19 @@
+@(pp:Makeup)
+<div class="container-fluid">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+        <div class="panel panel-group">
+            <div  class="panel panel-primary">
+                <div class="panel-heading">@pp.getName</div>
+                <div class="panel-body"style="color: black">
+                    รหัสสินค้า:@pp.getId()<br>
+                    ชื่อสินค้า:@pp.getName()<br>
+                    แบรนด์:@pp.getBrand()<br>
+                    ประเภทสินค้า:@pp.getCategory()<br>
+                    ราคา:@pp.getPrice()<br>
+                    จำนวน:@pp.getAmount()<br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

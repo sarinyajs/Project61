@@ -1,0 +1,14 @@
+@(pp:Makeup)
+<h2><p style="background-color: #FFFF66" align=center> <strong> <b>NEW PRODUCT</b></strong></p></h2>
+
+<div  class="panel panel-primary">
+    <div class="panel-heading">@pp.getName()</div>
+    <div class="panel-body"style="color: black">
+        รหัสสินค้า:@pp.getId()<br>
+        ชื่อสินค้า:@pp.getName()<br>
+        แบรนด์:@pp.getBrand()<br>
+        ประเภท:@pp.getCategory()<br>
+        ราคา:@pp.getPrice()<br>
+        จำนวน:@pp.getAmount()<br>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+@(content:Html)
+<html lang="en">
+    <head>
+        @header_page()
+    </head>
+    <body>
+           <div class="container-fluid" style="background-color: #BA55D3">
+            <div class="row" >
+                <div class="col-md-2" style="background-color: #BA55D3">
+                    @menu_page()
+                </div>
+                <div class=" col-md-10" style="background-color:#DDA0DD">
+                    @content
+                </div>
+            </div>
+
+            <div class="row" style="background-color: black">
+                    @location_page()
+            </div>
+        </div>
+    </body>
+</html>
